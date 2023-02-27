@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tasks 1-4</title>
+  <style>
+    /*Task 1 CSS styles here*/
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: blue;
+      border-bottom: 1px solid black;
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      color: green;
+      border-bottom: 1px dashed black;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    h3 {
+      color: red;
+      border-bottom: 1px dotted black;
+      padding-bottom: 5px;
+      margin-top: 20px;
+    }
+
+    p {
+      color: purple;
+      font-size: 18px;
+      line-height: 1.5;
+      margin-top: 10px;
+    }
+
+    ul {
+      color: orange;
+      list-style-type: square;
+      margin-top: 10px;
+      margin-left: 30px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  </style>
+  <style>
+    /*Task 2 CSS styles here*/
+
+    body {
+      background-color: #f2f2f2;
+      /* set background color of page */
+      font-family: Arial, sans-serif;
+      /* set font family of text */
+      color: #333;
+      /* set default font color of text */
+    }
+
+    table {
+      border-collapse: collapse;
+      /* remove space between table cells */
+      margin: 20px auto;
+      /* center table on page */
+      background-color: white;
+      /* set background color of table */
+      border: 1px solid #ddd;
+      /* add border around table */
+      font-size: 16px;
+      /* set font size of table */
+    }
+
+    th,
+    td {
+      padding: 8px 16px;
+      /* add padding to table cells */
+      text-align: left;
+      /* align text to left of cell */
+      border-bottom: 1px solid #ddd;
+      /* add bottom border to cells */
+    }
+
+    th {
+      background-color: #4CAF50;
+      /* set background color of header cells */
+      color: white;
+      /* set font color of header cells */
+      font-weight: bold;
+      /* make header cells bold */
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+      /* set background color of even rows */
+    }
+
+    tr:hover {
+      background-color: #ddd;
+      /* set background color of row on hover */
+    }
+  </style>
+  <style>
+    /*Task 3 CSS styles here*/
+    table td:first-child {
+      width: 20%;
+    }
+
+    table {
+      font-size: 1.2em;
+    }
+  
+  </style>
+<style>
+  /*Task 4 CSS styles here*/
+  .container {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+	border: none;
+	border-radius: 10px;
+	background-color: #2ecc71;
+	color: #fff;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #27ae60;
+}
+
+#message-box {
+	width: 300px;
+	height: 30px;
+	padding: 10px;
+	font-size: 16px;
+	border: 2px solid #2ecc71;
+	border-radius: 10px;
+}
+
+#message {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+#image {
+	max-width: 400px;
+	margin-top: 20px;
+	display: none;
+}
+</style>
+</head>
+
+<body>
+  <!-- Task 1 content here -->
+  <h1>8151684 Amogh Ananth</h1>
+  <h2> COMP804: Web Security</h2>
+  <h3>Assignment 1 due at the end of Week 5</h3>
+  <p>Hello world!</p>
+  <ul>
+    <li>Lists</li>
+    <li>are</li>
+    <li>cool</li>
+  </ul>
+
+  <hr>
+  <!-- Task 2 content here -->
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Event</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2 Jan</td>
+        <td>New Year's Day public holiday</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>6 Feb</td>
+        <td>Trimester 1 - session commences</td>
+        <td>UOW main campus and online</td>
+      </tr>
+      <tr>
+        <td>1-3 March</td>
+        <td>Summer - supplementary and deferred exams</td>
+        <td>UOW main campus and online</td>
+      </tr>
+      <tr>
+        <td>1 April</td>
+        <td>Autumn - SSAF due</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>5 May</td>
+        <td>Autumn - last day to withdraw from subjects without academic penalty</td>
+        <td>N/A</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <!-- Task 3 content here -->
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Health Benefit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <h2>Blackberries</h2>
+          <img src="images/Blackberries.png" alt="Blackberries">
+        </td>
+        <td>
+          Blackberries are sweet and juicy fruits that are often used in desserts and jams. They are a good source of
+          vitamin C, fiber, and antioxidants.<br>
+          <a href="https://www.healthline.com/nutrition/blackberries" target="_blank">source</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Blueberries</h2>
+          <img src="images/Blueberries.png" alt="Blueberries">
+        </td>
+        <td>
+          Blueberries are small, round fruits that are usually blue or purple in color. They are known for their high
+          antioxidant content and are often used in baked goods and smoothies.<br>
+          <a href="https://www.healthline.com/nutrition/10-proven-benefits-of-blueberries" target="_blank">source</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Purple Grapes</h2>
+          <img src="images/Purple_Grapes.png" alt="Purple Grapes">
+        </td>
+        <td>
+          Purple grapes are sweet and juicy fruits that are commonly used to make wine. They are also a good source of
+          vitamin C and antioxidants.<br>
+          <a href="https://www.healthline.com/nutrition/benefits-of-grapes" target="_blank">source</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Plums</h2>
+          <img src="images/Plums.png" alt="Plums">
+        </td>
+        <td>
+          Plums are soft and juicy fruits that come in a variety of colors, including red, yellow, and purple. They are
+          a good source of vitamin C, fiber, and antioxidants.<br>
+          <a href="https://www.healthline.com/nutrition/plums-prunes-benefits" target="_blank">source</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Strawberries</h2>
+          <img src="images/Strawberries.png" alt="Strawberries">
+        </td>
+        <td>
+          Strawberries are sweet and juicy fruits that are often used in desserts and smoothies. They are a good source
+          of vitamin C, fiber, and antioxidants.<br>
+          <a href="https://www.healthline.com/nutrition/foods/strawberries" target="_blank">source</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Cherries</h2>
+          <img src="images/Cherries.png" alt="Cherries">
+        </td>
+        <td>
+          Cherries are packed with antioxidants, which can help to protect your cells from damage caused by harmful
+          molecules known as free radicals. They are also a good source of fiber, which can help to promote digestive
+          health.<br>
+          <a href="https://www.healthline.com/nutrition/cherries-benefits" target="_blank">source</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Red Grapes</h2>
+          <img src="images/red_grapes.png" alt="Red Grapes">
+        </td>
+        <td>
+          Red grapes are a rich source of antioxidants, including resveratrol, which can help to protect your cells from
+          damage. They also contain polyphenols, which may help to reduce inflammation and lower your risk of chronic
+          diseases such as heart disease and cancer.<br>
+          <a href="https://www.healthline.com/nutrition/benefits-of-red-grapes" target="_blank">source</a>
+        </td>
+      </tr>
+      <td>
+        <h2>Raspberries</h2>
+        <img src="images/raspberries.png" alt="Raspberries">
+      </td>
+      <td>
+        Raspberries are a good source of vitamin C, which can help to boost your immune system and protect your cells
+        from damage. They are also high in fiber, which can help to promote digestive health and reduce your risk of
+        chronic diseases such as heart disease and diabetes.<br>
+        <a href="https://www.healthline.com/nutrition/raspberry-nutrition" target="_blank">source</a>
+      </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Watermelon</h2>
+          <img src="images/watermelon.png" alt="Watermelon">
+        </td>
+        <td>
+          Watermelon is rich in water and contains electrolytes, which can help to keep you hydrated. It is also a good
+          source of vitamin C, which can help to boost your immune system, and contains compounds called carotenoids,
+          which may help to reduce your risk of certain types of cancer.<br>
+          <a href="https://www.healthline.com/nutrition/watermelon-health-benefits" target="_blank">source</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2> Red apples </h2>
+          <img src="images/red_apples.png" alt="Watermelon">
+        </td>
+        <td>
+          Red apples are a good source of fiber, which can help to promote digestive health and reduce your risk of
+          chronic diseases such as heart disease and diabetes. They also contain antioxidants, including quercetin,
+          which can help to protect your cells from damage caused by harmful molecules known as free radicals.<br>
+          <a href="https://www.medicalnewstoday.com/articles/267290" target="_blank">source</a>
+        </td>
+      </tr>
+
+  </table>
+<!-- Task 4 content here -->
+<h1>Animal Buttons</h1>
+
+<div class="container">
+  <div class="button-container">
+    <button id="cat-btn">Cat</button>
+    <button id="dog-btn">Dog</button>
+    <button id="frog-btn">Frog</button>
+  </div>
+  <input type="text" id="message-box" placeholder="Click a button">
+  <p id="message"></p>
+  <img id="image" src="">
+</div>
+<script>
+    // get elements
+const catBtn = document.getElementById('cat-btn');
+const dogBtn = document.getElementById('dog-btn');
+const frogBtn = document.getElementById('frog-btn');
+const messageBox = document.getElementById('message-box');
+const message = document.getElementById('message');
+const image = document.getElementById('image');
+
+// add event listeners
+catBtn.addEventListener('click', showCat);
+dogBtn.addEventListener('click', showDog);
+frogBtn.addEventListener('click', showFrog);
+
+// show cat function
+function showCat() {
+	messageBox.value = 'User clicks Cat';
+	message.textContent = 'Cat is clicked';
+	image.src = 'images/cat.png';
+	image.style.display = 'block';
+}
+
+// show dog function
+function showDog() {
+	messageBox.value = 'User clicks Dog';
+	message.textContent = 'Dog is clicked';
+	image.src = 'images/dog.png';
+	image.style.display = 'block';
+}
+
+// show frog function
+function showFrog() {
+	messageBox.value = 'User clicks Frog';
+	message.textContent = 'Frog is clicked';
+	image.src = 'images/frog.png';
+	image.style.display = 'block';
+}
+</script>
+</body>
